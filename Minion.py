@@ -10,7 +10,7 @@ class Minion(Card):
         self.life = life
 
     def printMinionInfo(self):
-        print('The card cost: ' + str(self.cost)
+        print('The card cost: ' + str(self.cost))
         print('The card name: ' + self.name)
         print('Damage: ' + str(self.damage))
         print('Life: ' + str(self.life))
